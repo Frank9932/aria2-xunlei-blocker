@@ -33,7 +33,7 @@ No dependency installation is performed by this project.
 1. Query active BitTorrent peers via aria2 RPC
 2. Decode peerId (URL-encoded raw bytes)
 3. Apply detection rules:
-   - peerId starting with "-XL"(Xunlei clinets) → immediate ban
+   - peerId starting with "-XL"(Xunlei clients) → immediate ban
    - otherwise, apply behavior scoring:
      - high download speed
      - low or zero upload
